@@ -27,27 +27,27 @@ presence_penalty = 0.5
 
 # Below is the name for your default csv terms file. You can change this to any csv file you want to use as your default terms file. It must be in the same folder as the main app.py file.
 
-default_terms_csv = "terms_template.csv"
+default_terms_csv = "terms - Sheet1.csv"
 
 ############################################################################################################
 
 # Below is all the text you can customize for the app. Don't remove the quotations around the text. Don't change the variable names.
 
 # The title of the app
-app_title = "DIY AI-enhanced study app for biologists"
+app_title = "AI-enhanced study app for Mendelian Inheritance"
 
 # The subtitle of the app
-app_author = "courtesy of UCSD School of Biological Sciences"
+app_author = "Debra Grantham"
 
 # This is an intro paragraph you can add under the title. it is not currently being used in the app.
 intro_para = " "
 
 # The user's instructions for the app
 instructions = '''
-**Instructions for educators:**
+**Instructions for students**
 The goal of this app is to help students learn and assess their knowledge of core course concepts and examples.
-1. Please visit the following link to see full instructions to copy this app so you can customize it and use it in your classroom.
-2. You can customize the terms in the terms_template.csv file. You can delete everything below the first row and add in your own terms in the first column. You can open and edit it in Excel, Google Sheets, or any text editor. Make sure that you don't change the file extension from csv. Once done, upload it below. The app will use your terms for the study session.
+1. Please use this app to practice test your understanding of simple Mendelian inheritance. 
+2. etc.editor. Make sure that you don't change the file extension from csv. Once done, upload it below. The app will use your terms for the study session.
 3. These instructions are formatted in Markdown. You can customize them as needed. If you don't know what Markdown is, it's a simple way to format text on the web. You can learn more about it [here](https://www.markdownguide.org/getting-started/).
 4. You can also customize the text in this app by editing the config.py file. This includes the title, instructions, and more.
 5. If you have any questions or need help, please reach out to the Reuther Lab at UCSD.
